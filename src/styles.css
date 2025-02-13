@@ -1,0 +1,67 @@
+:root {
+    /* Main Palette */
+    --color-primary: #2b1d5a;
+    --color-secondary: #a296ca;
+    --color-tertiary: #282b75;
+    --color-quaternary: #1d161e;
+    
+    /* Light Neutrals */
+    --color-light-gray: #d3d3d3;
+    --color-off-white: #f0f0f0;
+    --color-pale-beige: #f4e1d2;
+
+    /* Accent Colors */
+    --color-gold: #f7c32e;
+    --color-cyan: #6ae1d1;
+    --color-mint-green: #a3e4d7;
+
+    /* Deep Space */
+    --color-indigo: #3b1e6f;
+    --color-midnight-blue: #191970;
+    --color-charcoal: #2e2e2e;
+
+    /* Size*/
+    --font-size-s: 1.0rem;
+    --font-size-m: 1.4rem;
+    --font-size-l: 1.8rem;
+}
+
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('assets/font/SpaceGrotesk-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('assets/font/SpaceGrotesk-Regular.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('assets/font/SpaceGrotesk-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Space Grotesk';
+    background: radial-gradient(circle at top, 
+        var(--color-indigo) 5%, 
+        var(--color-tertiary) 25%, 
+        var(--color-primary) 55%, 
+        var(--color-quaternary) 80%, 
+        var(--color-midnight-blue) 100%
+    );
+    background-attachment: fixed;
+    color: var(--color-light-gray);
+    font-size: var(--font-size-m);
+}
+
+button { cursor: pointer; }

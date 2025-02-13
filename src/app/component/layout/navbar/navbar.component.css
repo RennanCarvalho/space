@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 100vw;
+    height: 100%;
+    
+}
+.navbar li {
+    height: 100%;
+}
+
+.navbar li a {
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    height: 100%;
+}
+
+
+
+/* background-color: radial-gradient(#ffc58b 10%, #e1a6ff 20%, #e1a6ff 30%, #352cee 60%); */
